@@ -2,7 +2,7 @@
 
 This repository contains the packages required for lane following and object avoidance simulation of jetbot.
 
-* For runnig the **lane following** simulation, follow these steps:
+* For running the **lane following** simulation, follow these steps:
     * Clone the jetbot_sim package.    
     * For uploading the track in gazebo, open the file **world/lane_follower.world** and then in the lines **131** & **151** change the path to the **Part1.stl** file according to your system.    
     * Build the package.    
