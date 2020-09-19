@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <node name="map_server" pkg="map_server" type="map_server" 
+	args="$(find jetbot_sim)/map/map.yaml" />
+
+    <include file="$(find jetbot_sim)/launch/move_base.launch" />
+  
+
+</launch>

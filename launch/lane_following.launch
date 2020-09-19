@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+
+<launch>
+
+	<node pkg="jetbot_sim" type="lane_detection" name="lane_detection" />
+
+    <node pkg="jetbot_sim" type="error_pid.py" name="error_pid" />
+
+</launch>
