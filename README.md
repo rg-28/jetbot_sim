@@ -9,6 +9,7 @@ This repository contains the packages required for lane following and object avo
     * Run the following commands:    
       * **roslaunch jetbot_sim gazebo.launch**
       * **roslaunch jetbot_sim lane_following.launch**
+    * [Demo Video](https://www.youtube.com/watch?v=8GVjcdUdv4M&feature=youtu.be)
 
 * For running the **object avoidance using neural networks** simulation, follow these steps:
    * Install **pytorch** on your system. (Intructions can be found from this link : https://www.liquidweb.com/kb/how-to-install-pytorch-on-ubuntu/)
