@@ -21,5 +21,5 @@ This repository contains the packages required for lane following and object avo
    * For uploading the model in script, open the file **scripts/object_avoidance.py** and then in the lines **28** or **29** change the path to the **best_model.pth** file according to your system.
    * Build the package.
    * Run the following commands:
-	* **roslaunch jetbot_sim object_avoidance_config.launch**
-	* **rosrun jetbot_sim object_avoidance.py**
+     * **roslaunch jetbot_sim object_avoidance_config.launch**
+     * **rosrun jetbot_sim object_avoidance.py**
